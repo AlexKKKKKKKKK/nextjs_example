@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #2f5d8a;
+  --primary-hover: #264b70;
+  --on-primary: #ffffff;
+  --surface-color: #ffffff;
+  --primary-soft: rgba(47, 93, 138, 0.1);
+  --border-color: #d0d7de;
+  --danger-color: #b3402f;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #6c9bcf;
+    --primary-hover: #86afdc;
+    --on-primary: #0f1b2a;
+    --surface-color: #121212;
+    --primary-soft: rgba(108, 155, 207, 0.15);
+    --border-color: #3a3f45;
+    --danger-color: #e0786a;
+  }
+}
+
+.maximo {
+  background-color: green;
+  color: #ffffff;
+}
+
+.minimo {
+  background-color: blue;
+  color: white;
+}
+
+.padrao {
+  background-color: white;
+  color: black;
+}

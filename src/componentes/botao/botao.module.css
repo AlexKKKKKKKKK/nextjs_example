@@ -1,0 +1,41 @@
+.fill, .ghost, .outline {
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+    margin: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fill {
+    background-color: var(--primary-color);
+    color: var(--on-primary);
+}
+
+.fill:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.outline {
+    background-color: var(--surface-color);
+    color: var(--primary-color);
+}
+
+.outline:hover {
+    background-color: var(--primary-soft);
+}
+
+.ghost {
+    border-color: transparent;
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.ghost:hover {
+    background-color: var(--primary-soft);
+}
+
+.fill:disabled, .outline:disabled, .ghost:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

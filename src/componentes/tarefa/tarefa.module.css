@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    max-width: 320px;
+    padding: 8px 12px;
+    margin: 8px 0;
+    background-color: var(--surface-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.concluida {
+    background-color: var(--primary-soft);
+}
+
+.concluida .titulo span {
+    text-decoration: line-through;
+    opacity: 0.7;
+}

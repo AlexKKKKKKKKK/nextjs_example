@@ -1,0 +1,27 @@
+.menu {
+    display: flex;
+    gap: 8px;
+    padding: 12px 16px;
+    background-color: var(--surface-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.link {
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: var(--primary-soft);
+}
+
+.ativo {
+    background-color: var(--primary-color);
+    color: var(--on-primary);
+}
+
+.ativo:hover {
+    background-color: var(--primary-hover);
+}

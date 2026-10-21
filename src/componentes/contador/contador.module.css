@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  max-width: 320px;
+  padding: 8px 12px;
+  margin: 8px 0;
+  background-color: var(--surface-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+}
+
+.valor {
+  margin: 0;
+}
+
+.acoes {
+  display: flex;
+}
+
+.maximo {
+  border-color: var(--danger-color);
+}
+
+.maximo .valor {
+  color: var(--danger-color);
+}
+
+.minimo {
+  border-color: var(--border-color);
+}
+
+.minimo .valor {
+  opacity: 0.6;
+}
